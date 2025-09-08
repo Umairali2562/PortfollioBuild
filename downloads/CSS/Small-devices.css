@@ -1,0 +1,70 @@
+/* Small devices (phones to small tablets)
+ not my cell ....
+
+ */
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+    /*All the Containers*/
+    .navbar-container{
+        max-width: 100%;
+        max-height: 100%;
+        padding: 0;
+    }
+    .navbar-col-div {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 0.5rem;
+        padding-left: 2.5rem;
+    }
+    .logo-div{
+        padding-left: 0.5rem;
+        padding-top: 1.5rem;
+    }
+    .Skills-Container {
+        margin:0;
+    }
+    .Skills-div {
+        padding:0
+    }
+    .background-image-left {
+        top: -7%;
+        position: relative;
+    }
+    .Projects-Container {
+        padding-left:0;
+        padding-right:0;
+        margin-top:0;
+    }
+    .tabs{
+        width:100%;
+        left:0;
+        align-items: normal;
+    }
+    .Projects-paragraph p {
+        width:auto;
+    }
+    .banner-headings h1{
+        font-size: 40px;
+    }
+    .header-img{
+        margin-top: 50px;
+    }
+
+    .testimonial-main-container{
+        margin:0;
+    }
+
+    .testimonial-box1 h2{
+        font-size: 29px;
+        line-height: 56px;
+    }
+
+    .paragraph-testimonial p{
+        height: auto;
+        width: auto;
+        line-height: 24.8px;
+        font-size: 12px;
+    }
+
+
+
+}
